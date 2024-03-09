@@ -1,9 +1,7 @@
 # ML Fast API Docker Tutorial
 MLOps Session : Tutorial for deploying a ML model using Fast API and Docker for Thakur College of Engineering and Technology, University of Mumbai.
 
-`train` directory contains following files
-1. A Jupyter notebook used for training the CNN Model.
-2. Model weights after training
+`train` directory contains a Jupyter notebook used for training the CNN Model along with it's weights.
 
 `media` directory contains sample images that can be used for testing the endpoint.
 
