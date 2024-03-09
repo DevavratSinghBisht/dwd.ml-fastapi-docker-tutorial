@@ -1,0 +1,1 @@
+from .cifar10_cnn_v1 import *

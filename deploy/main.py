@@ -16,8 +16,8 @@ async def get_predictions(file: UploadFile = File(...)):
 
     print("########### PREDICTION IN PROGRESS  ##################", file.filename, "\n")
     
-    predicted_label = await inference.get_prediction(content)
+    predicted_label = await inference.get_predictions(content)
 
     print("########### PREDICTION SUCCESSFUL  ##################")
         
-    return predicted_label
+    return {"predicted_label": predicted_label}
