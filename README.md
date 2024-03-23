@@ -13,7 +13,7 @@ Go to the project root and follow either of the two methods mentioned below in o
 
 ### Method 1: Using Dockerfile
 1. Run `cd deploy` to cd into the deploy directory
-3. Run `docker built -t cifar10_cnn:v1 .` to create a docker image named cifar10_cnn with v1 as it's version.
+3. Run `docker build -t cifar10_cnn:v1 .` to create a docker image named cifar10_cnn with v1 as it's version.
 4. Run `docker run -it -p 8080:8080 cifar10_cnn:v1` to run the docker image created in step 2 and connect localhost port 8080 to docker's 8080.
 
 ### Method 2: Using docker-compose.yaml
